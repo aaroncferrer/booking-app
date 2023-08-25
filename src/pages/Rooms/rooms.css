@@ -1,0 +1,160 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('/bg_edited.png');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    border-width: 40px 40px 60px 40px;
+    border-style: solid;
+    border-color: black;
+    box-sizing: border-box;
+    position: relative;
+    padding: 1.3rem;
+}
+
+/* HERO NAV */
+.hero_nav {
+    font-family: var(--font-primary);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 1.3rem; */
+    font-size: 0.8rem;
+}
+
+.left_nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.left_nav p {
+    margin: 0;
+}
+
+.left_nav p:nth-child(1){
+    font-size: 1.3rem;
+}
+.left_nav p:nth-child(2){
+    font-size: 0.65rem;
+}
+
+.center_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+}
+
+.center_nav p {
+    margin-bottom: 0;
+}
+
+.center_nav_item {
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.center_nav_item:hover {
+    transform: translateY(-5px);
+}
+
+.book_btn {
+    font-weight: 600;
+    padding: 0.8rem 2rem;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    transition: var(--transition);
+}
+
+.book_btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* HERO TEXT */
+.hero_text {
+    color: white;
+    width: 40%;
+}
+
+.hero_text h2 {
+    font-family: var(--font-tertiary);
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.hero_text p {
+    font-family: var(--font-primary);
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+/* HERO BOOKING */
+.hero_booking {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-family: var(--font-tertiary);
+    font-size: 0.85rem;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown_select {
+    margin-top: 0.5rem;
+    padding: 0.6rem 1rem;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #927b60;
+}
+
+.check_btn {
+    text-align: center;
+    padding: 0.6rem 3rem;
+    background-color: #927b60;
+    color: white;
+    border: none;
+    margin-top: 8px;
+    transition: var(--transition);
+}
+
+.check_btn:hover {
+    outline: 1px solid #927b60;
+    background: transparent;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+/* HERO FOOTER */
+.hero_footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    transform: translateY(2.6rem);
+}
+
+.hero_footer p {
+    margin: 0;
+    font-family: var(--font-secondary);
+    font-weight: 300;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+

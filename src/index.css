@@ -1,6 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&family=Marcellus&family=Montserrat:wght@300;500;600&display=swap');
+
 /* CSS RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+	height: 100%; /* OPTIONAL */
+}
+
+::-webkit-scrollbar {
+  	display: none;
+}
+
+:root {
+	--transition: all 0.3s ease;
+
+	--font-primary: 'Montserrat', sans-serif;
+	--font-secondary: 'Barlow Condensed', sans-serif;
+	--font-tertiary: 'Marcellus', serif;
 }
