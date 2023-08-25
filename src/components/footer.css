@@ -1,0 +1,9 @@
+footer {
+    background-color: #927b60;
+    color: white;
+    font-family: var(--font-primary);
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 0.75rem 0;
+    margin-top: 3rem;
+}
