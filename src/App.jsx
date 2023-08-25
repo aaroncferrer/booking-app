@@ -1,7 +1,7 @@
 import Footer from './components/Footer';
 import './custom.scss';
-import RoomView from './pages/RoomView/RoomView';
-import Rooms from './pages/Rooms/Rooms';
+import RoomView from './pages/RoomView';
+import Rooms from './pages/Rooms';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 function App() {
