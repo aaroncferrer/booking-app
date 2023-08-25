@@ -1,6 +1,7 @@
 import './rooms.css';
 import {BsFillTelephoneFill, BsPersonCircle} from 'react-icons/Bs';
 import {AiFillMail} from 'react-icons/Ai';
+import { Link } from 'react-router-dom';
 
 function Rooms() {
     return (
@@ -101,7 +102,7 @@ function Rooms() {
                             </div>
                             <p className="room_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aliquid quasi vel odit fuga saepe mollitia, quidem eos eum similique impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             <div className="room_btn_container">
-                                <button className="room_btn">Book Now</button>
+                                <Link to="/room" className="room_btn">Book Now</Link>
                             </div>
                         </div>
                     </div>
@@ -119,7 +120,7 @@ function Rooms() {
                             </div>
                             <p className="room_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aliquid quasi vel odit fuga saepe mollitia, quidem eos eum similique impedit.</p>
                             <div className="room_btn_container">
-                                <button className="room_btn">Book Now</button>
+                                <Link to="/room" className="room_btn">Book Now</Link>
                             </div>
                         </div>
                     </div>
@@ -137,7 +138,7 @@ function Rooms() {
                             </div>
                             <p className="room_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aliquid quasi vel odit fuga saepe mollitia, quidem eos eum similique impedit.</p>
                             <div className="room_btn_container">
-                                <button className="room_btn">Book Now</button>
+                                <Link to="/room" className="room_btn">Book Now</Link>
                             </div>
                         </div>
                     </div>
@@ -155,7 +156,7 @@ function Rooms() {
                             </div>
                             <p className="room_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aliquid quasi vel odit fuga saepe mollitia, quidem eos eum similique impedit.</p>
                             <div className="room_btn_container">
-                                <button className="room_btn">Book Now</button>
+                                <Link to="/room" className="room_btn">Book Now</Link>
                             </div>
                         </div>
                     </div>
@@ -173,7 +174,7 @@ function Rooms() {
                             </div>
                             <p className="room_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aliquid quasi vel odit fuga saepe mollitia, quidem eos eum similique impedit.</p>
                             <div className="room_btn_container">
-                                <button className="room_btn">Book Now</button>
+                                <Link to="/room" className="room_btn">Book Now</Link>
                             </div>
                         </div>
                     </div>
@@ -191,7 +192,7 @@ function Rooms() {
                             </div>
                             <p className="room_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aliquid quasi vel odit fuga saepe mollitia, quidem eos eum similique impedit.</p>
                             <div className="room_btn_container">
-                                <button className="room_btn">Book Now</button>
+                                <Link to="/room" className="room_btn">Book Now</Link>
                             </div>
                         </div>
                     </div>

@@ -1,0 +1,207 @@
+.hero_view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('room1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.hero_view::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45); 
+}
+
+.resort_view {
+    z-index: 999;
+    color: white;
+    text-align: center;
+    align-self: flex-start;
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+}
+
+.hero_view_text {
+    text-align: center;
+    color: white;
+    z-index: 999;
+}
+
+.hero_view_text p {
+    margin: 0;
+    font-family: var(--font-primary);
+    font-size: 0.9rem;
+}
+
+.hero_view_text p:nth-child(1){
+    letter-spacing: 4px;
+}
+
+.hero_view_text p:nth-child(2){
+    font-size: 3.5rem;
+    font-family: var(--font-tertiary);
+    letter-spacing: 4px;
+}
+
+/* ROOM INFO */
+.room_info {
+    padding-top: 3rem;
+    width: 87.5%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 30% 67%;
+    gap: 3%;
+}
+
+.room_price {
+    color: white;
+    background-color: #1c1c1c;
+    padding: 1rem;
+    text-align: center;
+    font-family: var(--font-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.room_price > p {
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+}
+
+.room_date {
+    display: flex;
+    gap: 2.5rem;
+    font-family: var(--font-secondary);
+    letter-spacing: 5px;
+    margin: 2.5rem 0;
+}
+
+.check_in p:nth-child(1),
+.check_in p:nth-child(2),
+.check_out p:nth-child(1),
+.check_out p:nth-child(2){
+    color: #af9475;
+}
+
+.check_in p:nth-child(2),
+.check_out p:nth-child(2){
+    font-size: 4.2rem;
+}
+
+.check_in p, .check_out p {
+    margin: 0;
+}
+
+.room_guests_nights {
+    display: flex;
+    gap: 2.5rem;
+    font-family: var(--font-secondary);
+    letter-spacing: 5px;
+    margin-bottom: 2.5rem;
+}
+
+.guests p, .nights p {
+    margin: 0;
+}
+
+.guests p:nth-child(1), 
+.nights p:nth-child(1){
+    font-size: 2rem;
+    color: #af9475;
+}
+
+.total p {
+    font-size: 2rem;
+}
+
+.total span {
+    font-size: 0.75rem;
+}
+
+.room_amenities_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.amenities {
+    font-family: var(--font-primary);
+    font-size: 0.9rem;
+}
+
+.amenities h1 {
+    font-family: var(--font-tertiary);
+}
+
+.amenities h6 {
+    color: #927b60;
+    font-weight: 600;
+}
+
+.amenities h4 {
+    font-family: var(--font-tertiary);
+}
+
+.inclusives {
+    font-family: var(--font-tertiary);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+}
+
+.inclusive {
+    padding: 1rem 2rem;
+    background-color: rgba(146, 123, 96, 0.45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    flex: 1;
+}
+
+.inclusive p {
+    margin: 0;
+}
+
+.inclusive_icon {
+    font-size: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    font-family: var(--font-primary);
+    font-size: 0.85rem;
+}
+
+form h2 {
+    font-family: var(--font-tertiary);
+}
+
+.input_div {
+    gap: 1rem;
+}
+
+.form_input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input {
+    padding: 0.6rem 1rem;
+}
